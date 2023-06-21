@@ -63,7 +63,26 @@ It then prints the numbers in the list using three different for loops.The range
 
 ## REAL WORLD PROBLEM 1
 ### File: 1_REAL_World_Problem_1.py
+### Problem Statement: If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
+-First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
+-I created class variables self.name and self.salary inside this constructor.
+-Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
+-Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
+-Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
+-I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
+-As a result salary of Employees is deducting 1.5% if the comes late.
 
+
+## REAL WORLD PROBLEM 2
+### File: 1_REAL_World_Problem_1.py
+### Problem Statement: If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
+-First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
+-I created class variables self.name and self.salary inside this constructor.
+-Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
+-Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
+-Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
+-I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
+-As a result salary of Employees is deducting 1.5% if the comes late.
 
 ## Getting Started
 1. Clone the repository.
