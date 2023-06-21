@@ -75,7 +75,7 @@ It then prints the numbers in the list using three different for loops.The range
 
 ## REAL WORLD PROBLEM 2
 ### File: 1_REAL_World_Problem_1.py
-### Problem Statement: Calculate the total runs scored by a batsman in an innings
+### Problem Statement: Calculate the total runs scored by a batsman in an innings.
 - First, I take the total_score variable and assign 0 as value to it.
 - I use the while loop and this loop will continue to run until the programmer explicitly stops it using the break statement.
 - In every Iteration It will display "Enter 'out' to stop" which I have printed and takes score as an input from the user.
