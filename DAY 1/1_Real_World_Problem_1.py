@@ -1,4 +1,4 @@
-# If an employee comes office after 9:30 A.M, deduct 0.25% salary of that employee.
+# If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
 import datetime
 class Employee:
     def __init__(self,name,salary):
