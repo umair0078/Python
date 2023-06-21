@@ -64,25 +64,32 @@ It then prints the numbers in the list using three different for loops.The range
 ## REAL WORLD PROBLEM 1
 ### File: 1_REAL_World_Problem_1.py
 ### Problem Statement: If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
--First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
--I created class variables self.name and self.salary inside this constructor.
--Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
--Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
--Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
--I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
--As a result salary of Employees is deducting 1.5% if the comes late.
+- First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
+- I created class variables self.name and self.salary inside this constructor.
+- Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
+- Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
+- Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
+- I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
+- As a result salary of Employees is deducting 1.5% if the comes late.
 
 
 ## REAL WORLD PROBLEM 2
 ### File: 1_REAL_World_Problem_1.py
-### Problem Statement: If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
--First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
--I created class variables self.name and self.salary inside this constructor.
--Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
--Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
--Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
--I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
--As a result salary of Employees is deducting 1.5% if the comes late.
+### Problem Statement: Calculate the total runs scored by a batsman in an innings
+- First, I take the total_score variable and assign 0 as value to it.
+- I use the while loop and this loop will continue to run until the programmer explicitly stops it using the break statement.
+- In every Iteration It will display "Enter 'out' to stop" which I have printed and takes score as an input from the user.
+- The input function takes the input as a string so I used string method lower() here here.
+- If the user Enter 'out' in either uppercase or lowercase the loop will stop iterating beacuse of break statement and total_score of the player will print.
+- The try: keyword marks the beginning of the try block.
+- The int() function tries to convert the value of the variable score to an integer.
+- The total_score += score statement adds the value of score to the variable total_score.
+- The except: keyword indicates the beginning of the except block.
+- The ValueError keyword specifies the type of exception in case of invalid value that the except block will handle.
+- The print() statement prints the message "Invalid Input! Please Enter a valid score".
+
+
+  
 
 ## Getting Started
 1. Clone the repository.
