@@ -1,4 +1,5 @@
 l = ["Mango", "Orange", "Apple", "Banana", "Berry"]
 
-if l[i].startswith("B"):
-    print(l[i])
+for fruit in l:
+    if fruit[0].lower() == "b":
+        print(fruit)
