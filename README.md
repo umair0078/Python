@@ -67,4 +67,4 @@ It then prints the numbers in the list using three different for loops.The range
 2. Run the programs using Python 3.
 
 ## Contributing
-Contributions are welcome! I'd like the respected CEO to check my programs and guid me accordingly.
+Contributions are welcome! I'd like the respected CEO to check my programs and guide me accordingly.
