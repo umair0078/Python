@@ -1,6 +1,4 @@
-# Python Introduction and Flow Control
-This repository contains programs demonstrating basic concepts of Python and flow of control.
-
+## Python Django Internship
 ## Contents
 Following are the contents to be covered during this internship:
 - Python Programming
@@ -9,6 +7,8 @@ Following are the contents to be covered during this internship:
 - Django Rest Framework
 - Project
 ## DAY 1
+# Python Introduction and Flow Control
+This repository contains programs demonstrating basic concepts of Python and flow of control.
 - [Program 1](01_data_types.py): I already know about python datatypes therefore I have just write some comments and revised them.
 
 - [Program 2](02_Dictionary.py): This program creates a dictionary called `d` and assigns it some key-value pairs.It then prints the contents of the dictionary, using different methods to access the values.
