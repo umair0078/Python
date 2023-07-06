@@ -6,7 +6,7 @@ Following are the contents to be covered during this internship:
 - Django
 - Django Rest Framework
 - Project
-## DAY 1
+## OOP
 ## Python Introduction and Flow Control
 This repository contains programs demonstrating basic concepts of Python and flow of control.
 - [Program 1](01_data_types.py): I already know about python datatypes therefore I have just write some comments and revised them.
