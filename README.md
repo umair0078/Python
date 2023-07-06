@@ -7,90 +7,68 @@ Following are the contents to be covered during this internship:
 - Django Rest Framework
 - Project
 ## OOP
-## Python Introduction and Flow Control
-This repository contains programs demonstrating basic concepts of Python and flow of control.
-- [Program 1](01_data_types.py): I already know about python datatypes therefore I have just write some comments and revised them.
-
-- [Program 2](02_Dictionary.py): This program creates a dictionary called `d` and assigns it some key-value pairs.It then prints the contents of the dictionary, using different methods to access the values.
-
-- [Program 3](03_dict_pr.py): This program first defines an empty dictionary called `fav_lang`.It then prompts the user to enter their favorite language and stores their input in the dictionary.
-
-- [Program 4](04_list.py): List is very important concept in Python and in this file I proved that it is mutable and unhashable data type.
-
-- [Program 5](05_list_methods.py): In this file I have applied important methods on list.
-
-- [Program 6](06_tuple.py): In this file I revised the tuple and its methods as we know tuple is an immutable and hashable datatype and a tuple with single value will create using using a comma after that value i., (4,) , otherwise it will be treated as an integer.
-
-- [Program 7](07_set.py): In this file I show that a set is an unordered collection of unique items. It is unindexed and we cannot repeat values in a set.An ampty set will create using set(). we cannot add list and dictionary inside a set becaue the are unhashable. I also used some set methods here.
-
-- [Program 8](08_namespace.py): First, I use multi-line comment for the covenience then, I show that what how we the vriables are in global, local and nested global namespace.
-
-- [Program 9](09_is and ==.py): In this file I show that is used to check if two values are located on the same part of the memory and and == compares the values, if the are exaclty equal to each other or not.
-
-- [Program 10](10_global keyword.py): The first line of the program defines a global variable called a and assigns it the value 10. The second line defines a function called my_func(). The function my_func() defines a local variable called a and assigns it the value 20. The function then prints the value of the local variable a.The third line of the program calls the function my_func(). The fourth line defines a function called func_2(). The function func_2() uses the global keyword to access the global variable a and assigns it the value 50. The function then prints the value of the global variable a.The last line of the program prints the value of the global variable a.
-  
-- [Program 11](11_concatination.py): This program first defines two strings, `a` and `b`, and then combines them with the string representation of the integer `c`.
-It then prints the message and prompts the user to enter their name.
-
-- [Program 12](12_if_statement.py): The control will go inside the if statement only if the given condition is true otherwise it will print nothing.
-
-- [Program 13](13_if_else_statement.py): The control will go go inside if statement if the given condition is true otherwise it will go inside the else block.
-
-- [Program 14](14_Grade_Calculation.py): This program takes the user's marks as input and then prints their grade.The grade is determined using a series of if-elif statements.
-
-- [Program 15](15_greatest_number.py): This program first takes the four numbers as an input from the user in integer form and then it first compares the first two numbers and the greater number is stored in f1 as a result, then it compares next two numbers and the result of greatest number will store in f2 as a result and then finally, it compares the f1 and f2 and we will get the greatest number.
-
-- [Program 16](16_practice_problem.py): This program first takes the name of the user as an input and I have created a list. Then I used the condition, if name is present in the list it will print "Your name is present in the list", otherwise it will print "Your name is not present in the list".
-  
-- [Program 17](17_practice_problem2.py): This program first takes the favourite fruit of the user as an input and I have created a list of fruits. Then I used the condition, if fruit entered by the user is present in the list it will print "Yes, it is present"", otherwise it will print "It is not present".
-
-- [Program 18](18_practice_problem3.py): This program prints those fruits present in the list which starts with "B" or "b".
-
-- [Program 19](19_spam_detector.py): This program detects the spam based on the text entered by the user.
-
-- [Program 20](20_input.py): In this program we use the built-in input function which takes the input from the user and prints the result.The input function by default takes the input in string then we have to typecast it according to our requirements.
-
-- [Program 21](21_string_methods.py): In this program I applied the some important built-in methods on string.
-
-- [Program 22](22_string_slicing.py): In this program I sliced the string in various ways.
-
-- [Program 23](23_type_conversion.py): In this program we typecast the integer into sting because we cannot concatinate an integer into a string.
-
-- [Program 24](24_while_loop.py): In this file I used while loop 3 times for my revision it runs as long as the given condition is true.
-
-- [Program 25](25_for_loop.py): This program first defines a list called `numbers` that contains the numbers from 1 to 9.
-It then prints the numbers in the list using three different for loops.The range() function returns a sequence of numbers, starting from 1 and ending at 9 (not including 10). The second for loop will print the numbers from from 1 to 20 and it will skip the two numbers and then prints the third number because range is "range(1,21,3).
 
 ## REAL WORLD PROBLEM 1
-### File: 1_REAL_World_Problem_1.py
-### Problem Statement: If an employee comes office after 9:30 A.M, deduct 1.5% salary of that employee.
-- First I created a class Employee and a constructor inside this class which takes two parameters name and salary.
-- I created class variables self.name and self.salary inside this constructor.
-- Then, I created a function "deduct_if_late", which deducts 1.5% salary of an employee if he comes office after 9:30 A.M.
-- Inside this function I created "arrival_time" variable,it stores the current time in the format %I:%M:%S %p, which is hour:minute:second AM/PM and time_deadline stores the time 9:30 AM in the same format.
-- Then, I write the condition if arrival_time is greater than time_deadline then deduct 1.5% of the salary.
-- I created two objects "Asad" and "Amjad" of the Employee class and call the function on these objects separately.
-- As a result,the salary of Employees is deducting 1.5% if the comes late.
+### File: 01_Designing_Browser_History.py
+This program implements a simple browser history. The BrowserHistory class has three methods: __init__, visit, and back. The __init__ method initializes the browser history with the homepage. The visit method adds a new URL to the history and clears the forward history. The back method returns the URL that was visited steps steps ago. The forward method returns the URL that was visited steps steps forward.
 
+To run the program, you can save it as a .py file and then run it from the command line. I saved this file  as 01_Designing_Browser_History.py. so I can run it using command
+python 01_Designing_Browser_History.py
 
 ## REAL WORLD PROBLEM 2
-### File: 1_REAL_World_Problem_1.py
-### Problem Statement: Calculate the total runs scored by a batsman in an innings.
-- First, I take the total_score variable and assign 0 as value to it.
-- I use the while loop and this loop will continue to run until the programmer explicitly stops it using the break statement.
-- In every Iteration It will display "Enter 'out' to stop" which I have printed and takes score as an input from the user.
-- The input function takes the input as a string so I used string method lower() here here.
-- If the user Enter 'out' in either uppercase or lowercase the loop will stop iterating beacuse of break statement and total_score of the player will print.
-- The try: keyword marks the beginning of the try block.
-- The int() function tries to convert the value of the variable score to an integer.
-- The total_score += score statement adds the value of score to the variable total_score.
-- The except: keyword indicates the beginning of the except block.
-- The ValueError keyword specifies the type of exception in case of invalid value that the except block will handle.
-- The print() statement prints the message "Invalid Input! Please Enter a valid score".
+### File:  02_Destinatiom_City.py
+The FindDestinationCity class has one method, destination_city. This method takes a list of lists as input, where each inner list represents a path between two cities. The method then creates a dictionary to store the number of outgoing paths for each city. For example, if the input list contains the paths ["Jhang", "Faisalabad"], ["Faisalabad", "Sheikhupura"], ["Sheikhupura", "Lahore"]], then the dictionary will have the following entries:
+{
+    "Jhang": 1,
+    "Faisalabad": 1,
+    "Sheikhupura": 0,
+    "Lahore": 0
+}
+The method then iterates over the dictionary and returns the city with no outgoing paths. In the example above, the city with no outgoing paths is Lahore, so the method will return "Lahore".
+The print statement in the code prints the dictionary so that you can see the number of outgoing paths for each city This is helpful for debugging the code.
 
+To run the program, you can save it as a .py file and then run it from the command line. I saved this file  as 02_Destinatiom_City.py. so I can run it using command
+python 02_Destination_City.py
+
+
+## REAL WORLD PROBLEM 3
+### File:  03_Minimum_Cost_to_Travel.py
+The MinimumTravlellingCost class has one method, twoCitySchedMinCost. This method takes a list of lists as input, where each inner list represents the cost of traveling from one city to another. The method then sorts the list by the difference between the first and second costs, so that the list is sorted in ascending order of the difference between the costs. For example, if the input list contains the costs [[34, 45], [23, 8], [12, 36], [67, 45]], then the sorted list will be [[12, 36], [34, 45], [23, 8], [67, 45]].
+
+The method then iterates over the sorted list and adds the first cost to the total cost if the index is less than half of the length of the list, and adds the second cost to the total cost if the index is greater than or equal to half of the length of the list. This ensures that the total cost is the minimum possible cost of traveling to two cities.
+The print statements in the code print the original list and the sorted list so that you can see the results of the sorting.
+
+To run the program, you can save it as a .py file and then run it from the command line. I saved this file  as 03_Minimum_Cost_to_Travel.py. so I can run it using command
+python 03_Minimum_Cost_to_Travel.py
+
+## REAL WORLD PROBLEM 4
+### File:  04_Max_Coins.py
+The CoinPiles class has one method, maxCoins. This method takes a list of integers as input, where each integer represents the number of coins in a pile. The method then sorts the list in descending order, so that the largest pile is at the end of the list. The method then iterates over the list and adds the middle coin from each group of three consecutive piles to the total number of coins. For example, if the input list contains the numbers [11, 23, 3, 344, 55, 67], then the method will add the following coins to the total:
+
+The middle coin from the first group of three piles, which is 23.
+The middle coin from the second group of three piles, which is 55.
+The middle coin from the third group of three piles, which is 67.
+The method then returns the total number of coins.
+The print statements in the code print the sorted list and the total number of coins so that you can see the results of the computation.
+
+To run the program, you can save it as a .py file and then run it from the command line. I saved this file  as 04_Max_Coins.py. so I can run it using command
+python 04_Max_Coins.py
+
+
+## REAL WORLD PROBLEM 5
+### File:  05_deck_of_cards.py
+I first define two classes here Card and Deck. The Card class represents a single card in a deck of cards. The Deck class represents a deck of cards. The Deck class has methods to build a deck of cards, shuffle the deck, draw a card from the deck, and show the deck.
+
+The program then defines a Player class. The Player class represents a player in a card game. The Player class has methods to draw a card from the deck, show the player's hand, and discard a card from the player's hand.
+
+The program then creates a Deck object and a Player object. The Player object is named umair. The program then calls the draw method on the umair object three times to draw three cards from the myDeck object. The showHand method is then called on the umair object to show the player's hand. The discard method is then called on the umair object to discard one of the cards from the player's hand. The showHand method is then called again to show the player's hand.
+
+The program then calls the discard method on the umair object again to discard another card from the player's hand. The showHand method is then called one last time to show the player's hand.
+
+To run the program, you can save it as a .py file and then run it from the command line. I saved this file  as 05_deck_of_cards.py. so I can run it using command
+python 05_deck_of_cards.py
 
   
-
 ## Getting Started
 1. Clone the repository.
 2. Run the programs using Python 3.
