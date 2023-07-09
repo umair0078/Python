@@ -18,10 +18,14 @@ This repository contains programs demonstrating basic concepts of Python and flo
 
 - # 2_Real_world_problem_2.py:
 - ## .
-- The exam() function takes a number of marks as input and prints a message based on the marks.
-   If the marks are less than 33, the function calls itself again with the marks increased by 1. This continues until the marks are 33 or more, at which point the function 
-     prints a message congratulating the user on passing the exam.
-    If the marks are not a number, the function prints an error message.
+- The menu() function prints a menu of fast food items that the user can order.
+1. The function takes the user's order as input and checks if it is a valid number.
+2. If the order is valid, the function prints a message thanking the user for their order.
+3. If the order is not valid, the function prints an error message and asks the user to enter a valid number.
+4. The while True loop ensures that the menu is displayed repeatedly until the user enters "No".
+5. The status variable is used to store the user's input.
+6. The if statement checks if the user's input is "Yes" or "No".
+7. If the user's input is "Yes", the menu() function is called.
 
 
 - [Program 3](03_dict_pr.py): This program first defines an empty dictionary called `fav_lang`.It then prompts the user to enter their favorite language and stores their input in the dictionary.
