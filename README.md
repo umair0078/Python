@@ -16,7 +16,13 @@ This repository contains programs demonstrating basic concepts of Python and flo
      prints a message congratulating the user on passing the exam.
     If the marks are not a number, the function prints an error message.
 
-- [Program 2](02_Dictionary.py): This program creates a dictionary called `d` and assigns it some key-value pairs.It then prints the contents of the dictionary, using different methods to access the values.
+- # 2_Real_world_problem_2.py:
+- ## .
+- The exam() function takes a number of marks as input and prints a message based on the marks.
+   If the marks are less than 33, the function calls itself again with the marks increased by 1. This continues until the marks are 33 or more, at which point the function 
+     prints a message congratulating the user on passing the exam.
+    If the marks are not a number, the function prints an error message.
+
 
 - [Program 3](03_dict_pr.py): This program first defines an empty dictionary called `fav_lang`.It then prompts the user to enter their favorite language and stores their input in the dictionary.
 
