@@ -9,8 +9,8 @@ Following are the contents to be covered during this internship:
 ## Python Introduction and Flow Control
 ## Real World Problems
 This repository contains programs demonstrating basic concepts of Python and flow of control.
-- [Program 1](Real_world_problem_1.py):
-- # Suppose, a student wants to pass an exam. He requires minumum 33 marks to pass that exam. He will sit in exam again and again until he gets 33 or above marks.
+- # Real_world_problem_1.py:
+- ## Suppose, a student wants to pass an exam. He requires minumum 33 marks to pass that exam. He will sit in exam again and again until he gets 33 or above marks.
 - The exam() function takes a number of marks as input and prints a message based on the marks.
    If the marks are less than 33, the function calls itself again with the marks increased by 1. This continues until the marks are 33 or more, at which point the function 
      prints a message congratulating the user on passing the exam.
