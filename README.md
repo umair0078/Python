@@ -20,18 +20,25 @@ This repository contains programs demonstrating basic concepts of Python and flo
 # Problem 2
 - # 2_Real_world_problem_2.py:
 - ## Program checks you are hungry or not. if you are hungry then a fastfood menu will display and you have to pick the item from the menue. When You order the item then show you a message that "Your order has been placed successfully".
-- The menu() function prints a menu of fast food items that the user can order.
-1. The function takes the user's order as input and checks if it is a valid number.
-2. If the order is valid, the function prints a message thanking the user for their order.
-3. If the order is not valid, the function prints an error message and asks the user to enter a valid number.
-4. The while True loop ensures that the menu is displayed repeatedly until the user enters "No".
-5. The status variable is used to store the user's input.
-6. The if statement checks if the user's input is "Yes" or "No".
-7. If the user's input is "Yes", the menu() function is called.
+- 1. The menu() function prints a menu of fast food items that the user can order.
+2. The function takes the user's order as input and checks if it is a valid number.
+3. If the order is valid, the function prints a message thanking the user for their order.
+4. If the order is not valid, the function prints an error message and asks the user to enter a valid number.
+5. The while True loop ensures that the menu is displayed repeatedly until the user enters "No".
+6. The status variable is used to store the user's input.
+7. The if statement checks if the user's input is "Yes" or "No".
+8. If the user's input is "Yes", the menu() function is called.
 
 # Problem 3
 - # Meeting_Rooms.py
 - ## We are given an input array of meeting time intervals, intervals, where each interval has a start time and an end time.Find the minimum number of meeting rooms required to hold these meetings.
+- 1. The Arrange_Meetings class has a minMeetingRooms() function that takes an array of meeting time intervals as input.
+2. The function first sorts the intervals by their start time.
+3. Then, it initializes a heap to store the end times of the meetings.
+4. The function then iterates through the intervals and checks if the start time of the current meeting is greater than or equal to the end time of the meeting at the top of the heap.
+5. If it is, the function pops the meeting at the top of the heap.
+6. Otherwise, the function pushes the end time of the current meeting to the heap.
+7. The function returns the number of meetings in the heap.
 
 ## Getting Started
 1. Clone the repository.
